@@ -2,7 +2,6 @@
 ![GitHub top language](https://img.shields.io/github/languages/top/shihabmuhtasim/LATEX?color=a8e4a0) 
 ![GitHub language count](https://img.shields.io/github/languages/count/shihabmuhtasim/LATEX?color=a8e4a0) 
 ![GitHub last commit](https://img.shields.io/github/last-commit/shihabmuhtasim/LATEX?color=a8e4a0) 
-![GitHub repo file count](https://img.shields.io/github/directory-file-count/shihabmuhtasim/LATEX?color=a8e4a0)
 ![GitHub repo size](https://img.shields.io/github/repo-size/shihabmuhtasim/LATEX?color=a8e4a0)
 ![GitHub watchers](https://img.shields.io/github/watchers/shihabmuhtasim/LATEX?style=social)
 
