@@ -1,0 +1,180 @@
+\documentclass{article}
+\usepackage{amsmath} 
+\usepackage{amssymb}
+\begin{document} 
+    \begin{titlepage}
+    \begin{center}
+    \line(1,0){300}\\
+    [0.25 in]
+    \huge{\bfseries Shihab Muhtasim}\\
+    [0.5 cm]
+    \textsc{\Large Student ID: 21301610}\\
+    \line(1,0){400}\\
+    [2 cm]
+    \textsc{\LARGE MAT 110}\\
+    [0.5 cm]
+    \textsc{\LARGE ASSIGNMENT 03}\\
+    [0.5 cm]
+    \textsc{\LARGE SET 7}\\
+    \end{center}
+    \end{titlepage}
+\begin{newpage}
+    \begin{flushright}
+    \textsc{Assignment 3}\\
+    \textsc{Problem 1}\\
+    [1 cm]
+    \end{flushright}
+\begin{center}
+  \textbf{\Large \underline {Ans to the question no 01}}\\
+  [1 cm]
+\end{center}
+\Large {Given function, \\[3mm]
+$ f(x)=\sin{x}+2\cos{x}$\\[3mm]
+By differentiating this function we get,\\[3mm]
+$f'(x)=\cos{x}-2\sin{x}\\[3mm]
+f''(x)=-\sin{x}-2\cos{x}\\[3mm]
+f'''(x)=-\cos{x}+2\sin{x}\\[5mm]$
+Now, at x=0,\\[3mm]
+$f(0)=\sin{0}+2\cos{0}=2\\[3mm]
+f'(0)=\cos{0}-2\sin{0}=1\\[3mm]
+f''(0)=-\sin{0}-2\cos{0}=-2\\[3mm]
+f'''(0)=-\cos{0}+2\sin{0}=-1\\[5mm]$
+We know,
+$P_{n}(0)=\frac{f^0(x)}{0!}x^0+\frac{f'(x)}{1!}x^1+\frac{f''(x)}{2!}x^2+\frac{f'''(x)}{3!}x^3+.....$\\[3mm]
+According to Taylor series around x=0,\\[3mm]
+$P_{3}(0)=\frac{f^0(0)}{0!}x^0+\frac{f'(0)}{1!}x^1+\frac{f''(0)}{2!}x^2+\frac{f'''(0)}{3!}x^3\\[3mm]
+\Rightarrow P_{3}(0) =\frac{2}{0!}(x-0)^0+\frac{1}{1!}(x-0)^1+\frac{-2}{2!}(x-0)^2+\frac{-1}{3!}(x-0)^3\\[3mm]
+\Rightarrow P_{3}(0)=2+(x-0)-(x-0)^2-\frac{x^3}{6}\\[3mm]
+\Rightarrow P_{3}(0)=2+x-x^2-\frac{1}{6}x^3\\[3mm]
+\therefore P_{3}(0)=2+x-x^2-\frac{1}{6}x^3$}
+\end{newpage}
+\begin{newpage}
+    \begin{flushright}
+    \textsc{Assignment 3}\\
+    \textsc{Problem 2}\\
+    [0.5 cm]
+    \end{flushright}
+\begin{center}
+  \textbf{\Large \underline {Ans to the question no 02}}\\
+  [0.5 cm]
+\end{center}
+\Large {We know,\\[3mm]
+$P_{n}(0)=\frac{f^0(x)}{0!}x^0+\frac{f'(x)}{1!}x^1+\frac{f''(x)}{2!}x^2+\frac{f'''(x)}{3!}x^3+.....$\\[3mm]
+Given function, \\[2mm]
+$f(x) = \ln(e^{2x} + e^{-2x})$\\[3mm]
+By differentiating we get,\\[2mm]
+$f'(x) = \frac{1}{e^{2x} + e^{-2x}}\cdot(2{e^{2x}}-2e^{-2x})=\frac{2(e^{4x}-1)}{e^{4x}+1}\\[3mm]
+f''(x)=\frac{2\cdot4e^{4x}(e^{4x}+1)-4e^{4x}2(e^{4x}-1)}{(e^{4x}+1)^2}\\[3mm]
+\Rightarrow f''(x)=\frac{8e^{4x}(e^{4x}+1)-8e^{4x}(e^{4x}-1)}{(e^{4x}+1)^2}\\[3mm] 
+\Rightarrow f''(x)=\frac{8e^{4x}(e^{4x}-e^{4x}+2)}{(e^{4x}+1)^2}\\[3mm]
+\Rightarrow f''(x)=\frac{16e^{4x}}{(e^{4x}+1)^2}\\[3mm]$
+Putting x=0 in f(x) and its derivatives we get,\\[3mm]
+$f(0) = \ln (e^{2\cdot0} + e^{-2\cdot0})=\ln2\\[3mm]
+f'(0) =\frac{2(e^{4\cdot0}-1)}{e^{4\cdot0}+1}=\frac{0}{2}=0\\[3mm]
+f''(0)=\frac{16e^{4\cdot0}}{(e^{4\cdot0}+1)^2}=\frac{16}{4}=4\\[3mm]$
+Therefore,\\[3mm]
+$P_{o}=\frac{f^0(0)x^0}{0!}=\ln2 \\[3mm]
+P_{1}=\frac{f^0(0)x^0}{0!}+\frac{f'(0)x^1}{1!}=\ln2+0=\ln2\\[3mm]
+P_{2}=\frac{f^0(0)x^0}{0!}+\frac{f'(0)x^1}{1!}+\frac{f''(0)x^2}{2!}=\ln2+2x^2$}
+\end{newpage}
+\begin{newpage}
+    \begin{flushright}
+    \textsc{Assignment 3}\\
+    \textsc{Problem 3}\\
+    [1 cm]
+    \end{flushright}
+\begin{center}
+  \textbf{\Large \underline {Ans to the question no 03}}\\
+  [1 cm]
+\end{center}
+\Large {Given multi-variable function, \\[3mm]
+$f(x,y) = (x^2 + 2y^2x + 3x + y^2)^2$\\[5mm]
+Derivatives of f(x,y) with respect to x considering other variables constant,\\[3mm]
+$f_{x}=2(x^2 + 2y^2x + 3x + y^2)(2x+2y^2+3)\\[3mm] 
+f_{xx}=2\{2(x^2 + 2y^2x + 3x + y^2)+(2x+2y^2+3)^2\}\\[3mm] 
+\Rightarrow f_{xx}=2\{(2x^2 + 4xy^2 + 6x + 2y^2)+(4x^2+4y^4+9+8xy^2+12y^2+12x)\}\\[3mm] 
+\Rightarrow f_{xx}=2(6x^2 + 12xy^2 + 18x + 14y^2+ 4y^2+9) \\[3mm]
+\therefore f_{xx}=2(6x^2 + 12xy^2 + 18x + 14y^2+ 4y^2+9) \\[5mm]$
+Similarly,\\[3mm] 
+$f_{y}=2(x^2 + 2y^2x + 3x + y^2)(4xy+2y)\\[3mm] 
+f_{yy}=2\{(4x+2)(x^2 + 2y^2x + 3x + y^2)+(4xy+2y)^2\}\\[3mm]
+\Rightarrow f_{yy}=2\{(4x^3+8x^2y^2+12x^2+4xy^2+2x^2+4xy^2+6x+2y^2)+(16x^2y^2+4y^2+16xy^2)\}\\[3mm]
+\Rightarrow f_{yy}=2(4x^3+24x^2y^2+14x^2+24xy^2+6x+6y^2)\\[3mm]
+\therefore f_{yy}=2(4x^3+24x^2y^2+14x^2+24xy^2+6x+6y^2)$}
+\end{newpage}
+\begin{newpage}
+    \begin{flushright}
+    \textsc{Assignment 3}\\
+    \textsc{Problem 4}\\
+    [1 cm]
+    \end{flushright}
+\begin{center}
+  \textbf{\Large \underline {Ans to the question no 04}}\\
+  [0.5 cm]
+\end{center}
+\Large {Given function, \\[2mm]
+$f(x, y) = \ln((x^2 + 3y + xy)^2)$\\[2mm]
+Where $x(t) = 2t+3, y(t) = t^2+3t $\\[2mm]
+Chair rule for partial derivatives,\\[2mm]
+$\frac{df}{dt}=\frac{\partial{f}}{\partial{x}}\cdot \frac{dx}{dt}+\frac{\partial{f}}{\partial{y}}\cdot \frac{dy}{dt}\\[2mm]$
+Now,\\[2mm]
+$\frac{\partial{f}}{\partial{x}}=\frac{1}{(x2 + 3y + xy)^2}\cdot 2(x^2 + 3y + xy)\cdot(2x+y)=\frac{2(2x+y)}{(x^2 + 3y + xy)}\\[2mm]
+\frac{dx}{dt}=2\\[2mm]
+\frac{\partial{f}}{\partial{y}}=\frac{1}{(x2 + 3y + xy)^2}\cdot 2(x^2 + 3y + xy)\cdot(3+x)=\frac{2(x+3)}{(x^2 + 3y + xy)}\\[2mm]
+\frac{dy}{dt}=2t+3\\[3mm]$
+Imposing these values on the chain rule formula,\\[2mm]
+$\frac{df}{dt}=\frac{2\cdot2(2x+y)}{(x^2 + 3y + xy)}+\frac{2(x+3)(2t+3)}{(x^2 + 3y + xy)}\\[2mm]$
+Since we have to evaluate this expression when t=0,\\[2mm]
+$\frac{4(2x+y)}{(x^2 + 3y + xy)}+\frac{2(x+3)(2\cdot0+3)}{(x^2 + 3y + xy)}\\[2mm]
+=\frac{8x+4y}{(x^2 + 3y + xy)}+\frac{6x+18}{(x2 + 3y + xy)}\\[2mm]
+=\frac{14x+4y+18}{(x^2 + 3y + xy)}\\[2mm]
+\therefore \frac{df}{dt}=\frac{14x+4y+18}{(x^2 + 3y + xy)}$ when t=0}
+\end{newpage}
+\begin{newpage}
+    \begin{flushright}
+    \textsc{Assignment 3}\\
+    \textsc{Problem 5}\\
+    [1 cm]
+    \end{flushright}
+\begin{center}
+  \textbf{\Large \underline {Ans to the question no 05}}\\
+  [1 cm]
+\end{center}
+\Large {Given function, \\[3mm]
+$y^2\sin(x^3)+ze^{3x}-\cos(z^2) = z^4-y^2+x^2$\\[3mm]
+Imposing partial differentiation on both sides with respect to x ,\\[3mm]
+$\frac{\partial}{\partial{x}}\{y^2\sin(x^3)+ze^{3x}-\cos(z^2)\}=\frac{\partial}{\partial{x}}(z^4-y^2+x^2)\\[3mm]
+\Rightarrow y^2\cos(x^3)\cdot 3x^2+\frac{\partial{z}}{\partial{x}}e^{3x}+z\cdot3e^{3x}+\sin(z^2)2z\frac{\partial{z}}{\partial{x}}=4z^3\frac{\partial{z}}{\partial{x}}+2x \\[3mm] 
+\Rightarrow \frac{\partial{z}}{\partial{x}} (e^{3x}+2z\sin(z^2)-4z^3)= 2x-z\cdot3e^{3x}-3x^2y^2\cos(x^3)\\[3mm]
+\Rightarrow \frac{\partial{z}}{\partial{x}}=\frac{2x-3ze^{3x}-3x^2y^2\cos(x^3)}{(e^{3x}+2z\sin(z^2)-4z^3)} \\[3mm]
+\therefore \frac{\partial{z}}{\partial{x}}=\frac{2x-3ze^{3x}-3x^2y^2\cos(x^3)}{(e^{3x}+2z\sin(z^2)-4z^3)} \\[4mm]$
+Similarly partial  differentiation  on  both  sides  with  respect to y,\\[3mm]
+$\frac{\partial}{\partial{y}}\{y^2\sin(x^3)+ze^{3x}-\cos(z^2)\}=\frac{\partial}{\partial{y}}(z^4-y^2+x^2)\\[3mm]
+\Rightarrow 2y\sin(x^3)+\frac{\partial{z}}{\partial{y}}e^{3x}+\sin(z^2)2z\frac{\partial{z}}{\partial{y}}=4z^3\frac{\partial{z}}{\partial{y}}-2y \\[3mm] 
+\Rightarrow \frac{\partial{z}}{\partial{y}} (e^{3x}+2z\sin(z^2)-4z^3)= -2y-2y\sin(x^3)\\[3mm]
+\Rightarrow \frac{\partial{z}}{\partial{y}}=\frac{-2y(1+\sin x^3)}{(e^{3x}+2z\sin(z^2)-4z^3)} \\[4mm]
+\therefore \frac{\partial{z}}{\partial{y}}=\frac{-2y(1+\sin x^3)}{(e^{3x}+2z\sin(z^2)-4z^3)} $}
+\end{newpage}
+\begin{newpage}
+    \begin{flushright}
+    \textsc{Assignment 3}\\
+    \textsc{Problem 6}\\
+    [1 cm]
+    \end{flushright}
+\begin{center}
+  \textbf{\Large \underline {Ans to the question no 06}}\\
+  [1 cm]
+\end{center}
+\Large {Given function, \\[3mm]
+$h(x,y,z) = y^3z^3 \cos(x^4)+x^3 \sin(z^2)$\\[3mm]
+We have to use partial differentiation to find $ h_{yzx}$.\\[3mm]
+Imposing partial differentiation of $h(x,y,x)$ with respect to y,\\[3mm]
+$h_{y}=3y^2z^3 \cos(x^4)$\\[3mm]
+Again partial differentiation of $h_{y}$ with respect to z, \\[3mm]
+$h_{yz}=3y^23z^2 \cos(x^4)=9y^2z^2\cos(x^4)$\\[3mm]
+Finally partial differentiation of $h_{yz}$ with respect to x, \\[3mm] 
+$h_{yzx}=9y^2z^2\{-\sin(x^4)(4x^3)\}=36x^3y^2z^2\{-\sin(x^4)\}$\\[3mm] 
+evaluating the expression of $h_{yzx}$ at point (0,1,1) we get,\\[3mm] 
+$h_{yzx}=36\cdot0^3\cdot1^2\cdot1^2\{-\sin(0^4)\}=0$\\[3mm]}
+\end{newpage}
+\end{document}
